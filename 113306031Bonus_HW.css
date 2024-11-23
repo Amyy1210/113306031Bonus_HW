@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+}
+
+
+.form-container {
+    width: 90%; 
+    max-width: 800px; 
+    padding: 30px; 
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+
+.form-group-horizontal {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.form-group-horizontal label {
+    text-align: right; 
+    margin-right: 10px; 
+    font-weight: bold; 
+    flex: 0 0 100px; 
+}
+
+.form-group-horizontal input, 
+.form-group-horizontal textarea {
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+
+#input1, #input4 {
+    width: 100%;
+}
+
+#input2, #input3 {
+    width: 100%; 
+}
+
+
+textarea {
+    resize: none; 
+}
+
+
+.image-container {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px;
+    width: 100%; 
+}
+
+.image-container label {
+    font-weight: bold; 
+    text-align: right;
+    margin-right: 10px; 
+    flex: 0 0 100px; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    max-width: 690px; 
+}
+
+#picture1 {
+    width: 100%; 
+    height: auto;
+} 
+
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; 
+    width: 100%;
+}
